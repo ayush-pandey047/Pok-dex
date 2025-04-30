@@ -1,0 +1,112 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f3f5;
+  }
+  
+  .header {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .container {
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .search-bar,
+  .filter-dropdown {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    min-width: 200px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pokemon-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .pokemon-name {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+  }
+  
+  .pokemon-id {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .types {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  
+  .type {
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  
+  /* Type Colors */
+  .type.fire { background-color: #f08030; }
+  .type.water { background-color: #6890f0; }
+  .type.grass { background-color: #78c850; }
+  .type.electric { background-color: #f8d030; }
+  .type.normal { background-color: #a8a878; }
+  .type.ice { background-color: #98d8d8; }
+  .type.fighting { background-color: #c03028; }
+  .type.poison { background-color: #a040a0; }
+  .type.ground { background-color: #e0c068; }
+  .type.flying { background-color: #a890f0; }
+  .type.psychic { background-color: #f85888; }
+  .type.bug { background-color: #a8b820; }
+  .type.rock { background-color: #b8a038; }
+  .type.ghost { background-color: #705898; }
+  .type.dark { background-color: #705848; }
+  .type.dragon { background-color: #7038f8; }
+  .type.steel { background-color: #b8b8d0; }
+  .type.fairy { background-color: #ee99ac; }
+  
+  .status {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+  }
+  
+  .status.error {
+    color: red;
+  }
+  
